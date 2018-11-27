@@ -85,7 +85,7 @@ img {
 
 
 
-
+/*about pg*/
 #me-pic {
 	height: 250px;
 	text-align: center;
@@ -102,40 +102,34 @@ img {
 	margin-top: 50px;
 }
 
+
+/*experience pg*/
 .experience-container {
-	display: block;
-    float: left;
+	display: flex;
 }
-
-.block {
-	/*display:inline-block;*/
-	/*margin-top: -15%;*/
-}
-
 .experience-pic {
+	margin-top: 5%;
 	margin-left: 5%;
-/*	width: 50%;
-*/	height:30%;
+	height:30%;
+	display:inline-block;
 }
 
 #workday-pic {
-	width: 50%;
+	width: 15%;
 	height:10%;
+}
+
+#anova-pic {
+	width:20%;
 }
 
 .pic-title {
 	display:flex;
 }
 
-/*.experience-date {
-	float:right;
-}*/
-
 .experience-title-container {
-	/*display: flex;*/
 	display: flex;
 	justify-content: space-between;
-    /*align-items: flex-start;*/
 	width: 60%;
 	margin-left: 22%;
 }
@@ -144,44 +138,30 @@ img {
 	margin-left: 22%;
 }
 
-/*.experience-title-subcontainer {
-	margin-top: 0%;
-	display: flex;
-	justify-content: space-between;
-    align-items: flex-start;
-	background-color: white;
-	width: 60%;
-	margin-left: 22%;
-}*/
-/*
-.experience-date {
-	text-align:right;
+.block {
+	display:inline;
+	/*position: absolute;*/
 }
 
-.experience-pos {
-	text-align: left;
-}*/
-
-
-#anova-pic {
-	width:20%;
-}
 
 .experience-text {
 	width:60%;
 	margin-left: 20%;
 }
 
+
+
+
+
+/*project pg*/
 .proj-pic {
 	width: 30%;
 	height:20%;
 }
 
-/*.travel-title, .travel-date {
-	display: inline-block;
-}*/
 
 
+/*travel pg*/
 .travel-title {
 	margin-left: 12%;
 }
