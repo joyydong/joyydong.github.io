@@ -133,7 +133,6 @@ img {
 	margin-bottom: -5%;
 }
 .experience-pos {
-	/*width: 60%;*/
 	margin-right: -50%;
 	margin-left: 22%;
 }
@@ -144,12 +143,9 @@ img {
     left: auto;
     z-index: 100;
     margin-right: 10%;
-    /*display: none;*/
 }
 
 .block {
-	/*display:inline;*/
-	/*position: absolute;*/
 	margin-left: -10%;
 }
 
@@ -158,7 +154,6 @@ img {
 }
 
 .experience-text {
-	/*width:60%;*/
 	margin-left: 20%;
 }
 
@@ -171,17 +166,20 @@ img {
 	width: 30%;
 	height:20%;
 }
-/*.proj-container {
+.proj-container {
 	display: flex;
 	margin-right: 10%;
-}*/
-/*.proj-pic {
+	margin-top: 5%;
+}
+.proj-pic {
 	margin-top: 2%;
 	margin-left: 5%;
 	height:30%;
 	display:inline-block;
 }
-*/
+
+
+
 .proj-title-container {
 	display: flex;
 	justify-content: space-between;
@@ -199,9 +197,9 @@ img {
     margin-right: 10%;
 }
 
-/*.block {
+.proj-block {
 	margin-left: -10%;
-}*/
+}
 
 /*#workday-block {
 	margin-left: -6%;
