@@ -9,6 +9,7 @@ $(document).ready(function() {
 	let ghcCurrentImageNumber = 0;
 
 	$("#lightbox-ghc").hide();
+	$("#overlay-ghc").hide();
 
 	$("#right-ghc").click(function() {
 		ghcCurrentImageNumber = (ghcCurrentImageNumber + 1) % 8;
@@ -31,6 +32,7 @@ $(document).ready(function() {
 		let newLeft = distanceToNextImage * ghccurrentImageNumber;
 		$("#carousel-strip-ghc").css("left", newLeft);
 		$("#lightbox-ghc").show();
+		$("#overlay-ghc").show();
 
 		// let imgNum = parseInt($(this).attr("id"));
 		// // console.log(imgNum);

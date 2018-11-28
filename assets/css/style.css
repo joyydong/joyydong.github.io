@@ -124,10 +124,6 @@ img {
 	width:20%;
 }
 
-.pic-title {
-	display:flex;
-}
-
 .experience-title-container {
 	display: flex;
 	justify-content: space-between;
@@ -170,10 +166,49 @@ img {
 
 
 /*project pg*/
-.proj-pic {
+/*.proj-pic {
 	width: 30%;
 	height:20%;
 }
+.proj-container {
+	display: flex;
+	margin-right: 10%;
+}
+.proj-pic {
+	margin-top: 2%;
+	margin-left: 5%;
+	height:30%;
+	display:inline-block;
+}
+
+.experience-title-container {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin-left: 22%;
+	margin-bottom: -5%;
+}
+
+.experience-date {
+	position: absolute;
+    right: 20px;
+    left: auto;
+    z-index: 100;
+    margin-right: 10%;
+}
+
+.block {
+
+	margin-left: -10%;
+}
+
+#workday-block {
+	margin-left: -6%;
+}
+
+.experience-text {
+	margin-left: 20%;
+}*/
 
 
 
