@@ -106,9 +106,10 @@ img {
 /*experience pg*/
 .experience-container {
 	display: flex;
+	margin-right: 10%;
 }
 .experience-pic {
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-left: 5%;
 	height:30%;
 	display:inline-block;
@@ -132,20 +133,35 @@ img {
 	justify-content: space-between;
 	width: 60%;
 	margin-left: 22%;
+	margin-bottom: -5%;
 }
 .experience-pos {
-	width: 60%;
+	/*width: 60%;*/
+	margin-right: -50%;
 	margin-left: 22%;
 }
 
-.block {
-	display:inline;
-	/*position: absolute;*/
+.experience-date {
+	position: absolute;
+    right: 20px;
+    left: auto;
+    z-index: 100;
+    margin-right: 10%;
+    /*display: none;*/
 }
 
+.block {
+	/*display:inline;*/
+	/*position: absolute;*/
+	margin-left: -10%;
+}
+
+#workday-block {
+	margin-left: -6%;
+}
 
 .experience-text {
-	width:60%;
+	/*width:60%;*/
 	margin-left: 20%;
 }
 
