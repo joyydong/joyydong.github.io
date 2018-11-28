@@ -212,6 +212,9 @@ img {
 
 
 /*travel pg*/
+#note {
+	margin-left: 12%;
+}
 .travel-title {
 	margin-left: 12%;
 }
@@ -246,8 +249,12 @@ img {
 	height: 80px;
 	width: 120px;
 	padding: 10px;
-	/*cursor: pointer;*/
+	cursor: pointer;
 }
+
+/*.img1:hover {
+	transform: scale(10,10);
+}*/
 
 .carousel-container {
 	position: absolute;

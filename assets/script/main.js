@@ -1,6 +1,9 @@
 $(document).ready(function() {
-	// $(".bg").fadeIn(200);
-	// $("#main-title").fadeIn(200);
+	$(".bg").hide();
+	$(".bg").fadeIn(2000);
+	// console.log($(".bg"));
+	$("#main-title").hide()
+	$("#main-title").fadeIn(2000);
 
 
 
@@ -25,7 +28,7 @@ $(document).ready(function() {
 		// 	$("#carousel-strip").css("left", ghcCurrentImageNumber * distanceToNextImage + "px");
 	})
 
-	$("#image-ghc").click(function() {
+	$(".image-ghc").click(function() {
 		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		ghccurrentImageNumber = parseInt($(this).attr("id"), 10);
 		let newLeft = distanceToNextImage * ghccurrentImageNumber;
@@ -66,7 +69,7 @@ $(document).ready(function() {
 			// $("#carousel-strip").css("left", europeCurrentImageNumber * distanceToNextImage + "px");
 	})
 
-	$("#image-europe").click(function() {
+	$(".image-europe").click(function() {
 		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		europecurrentImageNumber = parseInt($(this).attr("id"), 10);
 		let newLeft = distanceToNextImage * europecurrentImageNumber;
@@ -108,7 +111,7 @@ $(document).ready(function() {
 			// $("#carousel-strip").css("left", europeCurrentImageNumber * distanceToNextImage + "px");
 	})
 
-	$("#image-cr").click(function() {
+	$(".image-cr").click(function() {
 		$('html, body').animate({ scrollTop: 0 }, 'fast');
 
 		crcurrentImageNumber = parseInt($(this).attr("id"), 10);
