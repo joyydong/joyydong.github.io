@@ -26,6 +26,7 @@ $(document).ready(function() {
 	})
 
 	$("#image-ghc").click(function() {
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		ghccurrentImageNumber = parseInt($(this).attr("id"), 10);
 		let newLeft = distanceToNextImage * ghccurrentImageNumber;
 		$("#carousel-strip-ghc").css("left", newLeft);
@@ -66,6 +67,7 @@ $(document).ready(function() {
 	})
 
 	$("#image-europe").click(function() {
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		europecurrentImageNumber = parseInt($(this).attr("id"), 10);
 		let newLeft = distanceToNextImage * europecurrentImageNumber;
 		$("#carousel-strip-europe").css("left", newLeft);
@@ -107,6 +109,8 @@ $(document).ready(function() {
 	})
 
 	$("#image-cr").click(function() {
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
+
 		crcurrentImageNumber = parseInt($(this).attr("id"), 10);
 		let newLeft = distanceToNextImage * crcurrentImageNumber;
 		$("#carousel-strip-cr").css("left", newLeft);
