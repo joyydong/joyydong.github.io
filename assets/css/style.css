@@ -47,6 +47,10 @@ img {
 	height: 100px;
 }
 
+#logo:hover {
+	transform: scale(1.12) perspective(1px);
+}
+
 #links-container {
 	float: right;
 	margin-left: 50%;
@@ -348,5 +352,8 @@ img {
 }
 
 .circle:hover {
+    transform: translateY(-7px);
     cursor: pointer;
+/*    border-color: #3b8874;
+*/    transition-duration: 0.5s;
 }
