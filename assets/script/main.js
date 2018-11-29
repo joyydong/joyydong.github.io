@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".bg").hide();
-	$(".bg").fadeIn(2000);
+	$(".bg").fadeIn(1500);
 	// console.log($(".bg"));
 	$("#main-title").hide()
 	$("#main-title").fadeIn(2000);
