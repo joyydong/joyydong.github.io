@@ -29,9 +29,9 @@ img {
 }
 
 .main-container {
-	display: flex;
+	display: inline;
 	align-items: center;
-	background-color: white;
+	/*background-color: white;*/
 	width: 100%;
 	padding: 10px 5px 10px 5px;
 	/*position: fixed;*/
@@ -45,6 +45,7 @@ img {
 #logo {
 	width: 100px;
 	height: 100px;
+	display:inline-block;
 }
 
 #logo:hover {
@@ -52,8 +53,9 @@ img {
 }
 
 #links-container {
+	display: inline-block;
 	float: right;
-	margin-left: 50%;
+	/*margin-left: 50%;*/
 }
 
 
