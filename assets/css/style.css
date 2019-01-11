@@ -52,8 +52,9 @@ img {
 }
 
 #links-container {
-	float: right;
-	margin-left: 50%;
+	position: relative;
+	/*float: right;*/
+	/*margin-left: 50%;*/
 	/*white-space: nowrap;*/
 	/*width:600px;*/
 	/*box-sizing: border-box;*/
@@ -62,7 +63,20 @@ img {
 
 .links {
 	padding: 12px;
-	display: inline/*-block*/;
+	position: absolute;
+	/*display: inline;*/
+}
+
+.links:nth-child(1) {
+	left: 600;
+}
+
+.links:nth-child(2) {
+	left: 700;
+}
+
+.links:nth-child(3) {
+	left: 800;
 }
 
 #hello {
