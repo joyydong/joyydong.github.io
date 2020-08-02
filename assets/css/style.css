@@ -11,8 +11,9 @@ A {
 
 A:hover {
 	color:#67679F;
-/*	font-style: italic;*/
-	font-weight: bold;
+	font-style: italic;
+	/* font-weight: bold; */
+	text-decoration: underline;
 }
 
 #background { 
@@ -155,24 +156,16 @@ img {
 	margin-left: 22%;
 }
 
-.experience-date {
+/* .experience-date {
 	position: absolute;
     right: 20px;
     left: auto;
     z-index: 100;
     margin-right: 10%;
-}
+} */
 
 .block {
 	margin-left: -10%;
-}
-
-#amazon-block {
-	margin-left: -6%;
-}
-
-#amazon-pos {
-	margin-top: -5%;
 }
 
 .experience-text {
